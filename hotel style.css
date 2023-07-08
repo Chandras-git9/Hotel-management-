@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img1{
+    width: 1520px;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header {
+    
+    background: url(saman-arora-kTvYL-62ctQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100%; */
+    width: 100%;
+}
+
+.nav {
+    display: block;
+    padding: 2% 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav img {
+    width: 150px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 10%;
+    height: 2px;
+    background: rgb(57, 5, 229);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.text-box {
+    width: 90%;
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.text-box h1 {
+    font-size: 60px;
+    text-align: left;
+}
+
+.text-box p {
+    margin: 10px 0 90px;
+    font-size: 20px;
+    color: rgb(153, 120, 0);
+    text-align: left;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 2px solid red;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: blueviolet;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px solid navy;
+    transition: 1s;
+}
+
+
+/*------ meeting ------*/
+
+.serve {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 1px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 1px;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.serve-col {
+    flex-basis: 24%;
+    background: #ff3;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    padding: 1px 6px;
+    box-sizing: border-box;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 800;
+    margin: auto;
+}
+
+.serve-col:hover {
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/*-------- Partner-------*/
+
+.partner {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.partner-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.partner-col img {
+    width: 100%;
+    display: block
+}
+
+.layer {
+    background: ;
+    text-decoration: underline;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.layer:hover {
+    background: rgba(206, 255, 250, 0.4);
+}
+
+.layer1 {
+    background: ;
+    text-decoration: underline;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.layer1:hover {
+    background: rgba(218, 209, 246, 0.5);
+}
+
+.layer2 {
+    text-decoration: underline;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.layer2:hover {
+    background: rgba(159, 209, 246, 0.6);
+}
+
+
+/*-----------facilities-------*/
+
+
+.facilities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.facilities-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+f .facilities-col img {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.facilities-col p {
+    padding: 1px;
+}
+
+.facilities-col h3 {
+    margin-top: 5px;
+    margin-bottom: 9px;
+    text-align: center;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+-----------------------------------------
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+}
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: white;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+
+}
+.col:nth-child(2){
+    flex-basis: 15%;
+}
+.col:nth-child(3){
+    flex-basis: 15%;
+}
+.logo{
+    width: 80px;
+    margin-bottom: 30px;
+
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 30px;
+    position: relative;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+form .fa-solid{
+    font-size: 18px;
+    margin-right: 10px;
+}
+form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+form button .fa-solid{
+    font-size: 16px;
+    color: #ccc;
+}
+.social-icon .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+} 
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+.copyright{
+    text-align: center;
+}
